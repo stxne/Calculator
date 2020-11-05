@@ -1,0 +1,42 @@
+html, body{
+  padding:0px;
+  margin: 0px;
+  background: linear-gradient(90deg, #080807 50%, #f0ece8 50%);
+
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1{
+  color: #f0ece8;
+  font-family: termina,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16vmin;
+  padding: 0px 5vmin 0pc 7vmin;
+}
+
+h3{
+  font-size: 2.5vmin;
+}
+
+.secondHalf{
+  color: #080807;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 19vmin;
+  text-align: center;
+}
+
+input, button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5vmin;
+}
+
+p{
+  font-size: 3.5vmin;
+  text-decoration: underline;
+}
