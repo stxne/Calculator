@@ -5,12 +5,12 @@ var aestheticButton = document.getElementById("fortune-button");
 var numInput = document.getElementById("half-input");
 var numButton = document.getElementById("half-button");
 
-numButton.addEventListener("click", calculateHalf);
+numButton.addEventListener("click", halfNumber);
 aestheticButton.addEventListener("click", getAesthetic);
 
 
 
-function calculateHalf(){
+function halfNumber(){
   var numInputText = numInput.value;
   var numInputNumber = parseFloat(numInputText);
   console.log("half of " + numInputNumber + " is " + numInputNumber/2 + ".");
@@ -37,7 +37,7 @@ function restyle(){
   "Libre Barcode 128 Text, cursive","Montserrat, sans-serif"];
   var randFonts = Math.floor(Math.random() * fonts.length);
   result.style.fontFamily = fonts[randFonts];
-  var textDeco = ["solid","double","dotted","dashed","wavy"];
+  var textDeco = ["solid","double","dotted","dashed","wavy","none"];
   var randTextDeco = Math.floor(Math.random() * textDeco.length);
   result.style.textDecorationStyle = textDeco[randTextDeco];
 }
